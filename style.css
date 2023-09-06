@@ -1,0 +1,83 @@
+.disp{
+    display: none;
+}
+.form-control{
+    height: 10vh;
+}
+.btn{
+    height: 8vh;
+}
+
+@media screen and (max-width: 428px) {
+    .row{
+        display: grid !important;
+    }
+    .form-control{
+        width: 350% !important;
+        border-radius: 0% !important;
+        height: 6vh;
+        margin-left: -30px !important;
+    }
+    .firstdiv{
+        width: 600% !important;
+    }
+    .form-label{
+        width: 350% !important;
+        text-align: center;
+        margin-left: -35px;
+    }
+    #calculatebutton{
+        width: 100% !important;
+    }
+    #input1{
+        border-radius: 5% !important;
+    }
+    #input2{
+        border-radius: 5% !important;
+    }
+}
+@media screen and (max-width: 390px) {
+    .form-control{
+        margin-left: -50px !important;
+        width: 550% !important;
+    }
+    .form-label{
+        width: 600% !important;
+        text-align: center;
+        margin-left: -55px;
+    }
+}
+@media screen and (max-width:375px) {
+    .form-control{
+        margin-left: 95px !important;
+    }
+}
+@media screen and (max-width: 360px) {
+    .form-control{
+        margin-left: -45px !important;
+        width: 700% !important;
+    }
+    .form-label{
+        margin-left: -35px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .form-control{
+        width: 5000% !important;
+        margin-left: -65px !important;
+    }
+    .form-label{
+        width: 4000% !important;
+        margin-left: -50px;
+    }
+    #calculatebutton{
+        width: 110% !important;
+        margin-left: -5px !important;
+    }
+    #avatar{
+        width: 120% !important;
+        height: 13vh !important;
+        margin-left: -10px !important;
+    }
+   
+}
